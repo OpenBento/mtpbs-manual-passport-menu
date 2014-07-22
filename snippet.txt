@@ -1,0 +1,74 @@
+<div class="navbar split-button">
+    <div class="navbar-inner"> <a class="btn btn-navbar main_color" data-target=".nav-collapse"> 
+        
+        <span class="icon"></span> </a>
+        <div class="nav-collapse collapse">
+            <ul class="nav clearfix btn-gpup"  >
+                <li class="divider-vertical"></li>
+                <li><a href="/" class="dropdown-toggle">Home</a> </li>
+                <li class="divider-vertical"></li>
+                <li><a  href="/schedule/" class="dropdown-toggle">TV Schedule</a> <span class="dropdownBg" data-toggle="dropdown"><b class="caret"></b></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="/schedule/az/">Programs A-Z</a></li>
+                        <li><a href="/schedule/dtv/">DTV</a></li>              
+                    </ul>
+                </li>
+                <li class="divider-vertical"></li>
+                <li><a  href="/programs/" class="dropdown-toggle">Programs</a> <span class="dropdownBg" data-toggle="dropdown"><b class="caret"></b></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="/programs/">Montana Programs</a></li>
+                        <li><a href="/programs/featured/">Monthly Highlights</a></li>
+                        <li><a href="/programs/future-productions/">Future Productions</a></li>
+                        <li><a href="/programs/independents/">Independents</a></li>              
+                        <li><a href="/11thGrantwithEricFunk/"><img src="http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/structure/bricks/11thGrantWebBrick.jpg" alt="11th & Grant with Eric Funk"></a></li>
+                        <li><a href="/MontanaAgLive/"><img alt="Montana AG Live" src="http://bento.cdn.pbs.org/hostedbento-prod/filer_public/images2/structure/bricks/AgLiveWebBricck.jpg"></a></li>
+                        <li><a href="/BackroadsofMontana/"><img alt="Backroads of Montana" src="http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/structure/bricks/backroads_icon.jpg"></a></li> 
+                        <li><a href="/MontanaFocus/"><img alt="Montana Focus" src="http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/structure/bricks/FocusWebBrick.jpg"></a></li>
+                    </ul>
+                </li>
+                <li class="divider-vertical"></li>
+                <li><a href="/about-us/" class="dropdown-toggle">About</a> <span class="dropdownBg" data-toggle="dropdown"><b class="caret"></b></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="/blogs/news/">News</a></li>
+                        <li><a href="/about-us/broadcast-area/">Broadcast Area</a></li>
+                        <li><a href="/about-us/faq/">Frequently Asked Questions</a></li>
+                        <li><a href="/about-us/jobs/">Jobs</a></li>
+                        <li><a href="/about-us/staff/">Staff</a></li>
+                        <li><a href="/about-us/production-services/">Production Services</a></li>
+                    </ul>
+                </li>
+                <li class="divider-vertical"></li>
+                <li><a href="http://shop.montanapbs.org/" class="dropdown-toggle"> Shop</a></li>
+                <li class="divider-vertical"></li>
+                <li><a href="/support/" class="dropdown-toggle"> Support</a> <span class="dropdownBg" data-toggle="dropdown"><b class="caret"></b></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="/support/pledge-online/">Pledge Online</a></li>
+                        <li><a href="/support/businesspartners/">Business Partners</a></li>
+                        <li><a href="/support/friends/">Friends of MontanaPBS</a></li>
+                        <li><a href="/support/capitalcampaign/">Campaign for the Future</a></li>
+                        <li><a href="/support/other/">Other Ways to Give</a></li> 
+                    </ul>
+                </li>
+                <li class="divider-vertical"></li>
+                <li><a href="/kids" class="dropdown-toggle">Kids</a></li>
+                <li class="divider-vertical"></li>
+                <li><a href="/parents/" class="dropdown-toggle">Parents</a></li>
+                <li class="divider-vertical"></li>
+                <li><a href="/education/" class="dropdown-toggle">Educators</a></li>
+                <li class="divider-vertical"></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse --> 
+        
+    </div>
+    <!-- /.navbar-inner --> 
+</div>
+
+
+{% load sekizai_tags %}
+{% addtoblock "js" %}
+<script type="text/javascript" src="http://bento.cdn.pbs.org/hostedbento-prod/filer_public/_bento_media/passport/js/libs/jquery.cookie.js"></script>
+<!-- Adds "resize" event listener for other elements beside window -->
+<script type="text/javascript" src="http://bento.cdn.pbs.org/hostedbento-prod/filer_public/_bento_media/passport/js/libs/jquery.ba-resize.min.js"></script>
+<script type="text/javascript" src="http://bento.cdn.pbs.org/hostedbento-prod/filer_public/_bento_media/passport/js/menu.js"></script>
+{% endaddtoblock %}
